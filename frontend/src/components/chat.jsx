@@ -18,8 +18,8 @@ function Chat(props) {
         setMessage('');
         }
     };
-    const send = (messages)=>{
-        sendMessage([...messages, {human:message}]).then(result=>{if (result) setMessages(result)})
+    const send = (message)=>{
+        sendMessage({message, history:messages}).then(result=>{if (result) setMessages(result)})
     }
 
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ChatMessages from './chat.messages';
+import ChatMessages from './translate.messages';
 import translate from '../services/translate.service';
 
 
