@@ -25,7 +25,7 @@ function Chat(props) {
 
     return (
       <div className="chat">
-        Tradução para português
+        Chat
         <form onSubmit={handleSubmit}>
             <input
             type="text"
