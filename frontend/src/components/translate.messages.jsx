@@ -6,7 +6,7 @@ const ChatMessages = ({ messages }) => {
       <div className="chat-messages-container">
         {messages.map((msg, index) => (
           <div key={index} className="message">
-            {msg["human"]!==undefined?msg["human"]: 'Response: '+ msg["ai"]}
+            {msg}
           </div>
         ))}
       </div>
